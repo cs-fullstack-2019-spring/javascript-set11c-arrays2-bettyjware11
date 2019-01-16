@@ -8,5 +8,6 @@ for (var i = 0; i < numbers.length; i++) {
 var index=prompt("What is your index?");
 
 {
-    alert(i)
+	// KEY: Close, but we need to use the index entered to retrieve an item from the array at that index
+    alert(numbers[i]);
 }
